@@ -1,7 +1,7 @@
 # print hello world
 print("hello world")
 # take input
-a = input("enter the name")
+a = input("enter the name:")
 print(type(True))
 #boolean is True not 'true'
 # python is case sensitive
@@ -39,7 +39,7 @@ print((1,2,3))
 print({1,2,3})
 
 #dictionary
-print({'name':'harsh' , 'sem':'4'}) # key value form
+print({'name':'harsh' , 'sem':'4'}) # {'key': 'value'} form
 
 # variable
 # create var in python
@@ -60,17 +60,24 @@ a = 5 # not telling data type of var
 
 # Dynamic Binding
 a =5 
-print(a)
+print(a) # data type is not fixed
 a = 'hello'
 print(a)
 # static binding
-# int z = 5
+# int z = 5 // data type of integer will be fixed
 
-a =2
+a=2
 b=3
 c=4
-print(a,b,c , sep='\n')
+print(a,b,c , sep='\n\n\n')
 
 a,b,c=2,3,4
 print(a,b,c)
 # 1:04:24 {start from here}
+
+# keywords and identifiers
+a = int(input('Enter a:'))
+b = int(input('enter b:'))
+
+c =a + b
+print(c)
