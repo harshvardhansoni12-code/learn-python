@@ -29,10 +29,9 @@ print(not 1 ,sep='\n\n')
 # Bitwise 
 
 # Assignment Operators
-
 print("Assignment Operators",end='\n\n')
 a = 6
-a%=5
+a+=5
 print(a)
 
 #  Membership operator
@@ -41,11 +40,36 @@ print("Membership operator:" , end='\n\n\n')
 print('D' in 'Delhi')
 print('l' not in 'list')
 print('k' in 'delhi')
+print('f' in 'fish')
 
+# //30:15
 
+# if 'k' in 'list':
+#     print("i love my india")
+# else:
+#      print("i will still love india") 
 
+# number = 543
+# a = number%10
+# print(a)
+# number = number//10
+# b = number%10
+# print(b)  #this is rem
+# c =number//10
+# print(c)
+# # 43:20
+# sum = a+b+c
+# print(sum)
 
-if 'k' in 'Delhi':
-    print("i love my india")
+name = input("Enter your name:")
+password = input("Enter your password:")
+if name == "admin" and password == "admin123":
+    print("Welcome admin!")
+elif name == "admin" and password != "admin123":
+    password = input("Incorrect password. Please try again:")
+    if password == "admin123":
+        print("Welcome admin!")
+    else:
+        print("Invalid password.")
 else:
-     print("i will still love india")
+    print("Invalid credentials. Access denied.")
