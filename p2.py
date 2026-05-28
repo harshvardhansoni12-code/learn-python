@@ -61,15 +61,32 @@ print('f' in 'fish')
 # sum = a+b+c
 # print(sum)
 
-name = input("Enter your name:")
-password = input("Enter your password:")
-if name == "admin" and password == "admin123":
-    print("Welcome admin!")
-elif name == "admin" and password != "admin123":
-    password = input("Incorrect password. Please try again:")
-    if password == "admin123":
-        print("Welcome admin!")
-    else:
-        print("Invalid password.")
-else:
-    print("Invalid credentials. Access denied.")
+# name = input("Enter your name:")
+# password = input("Enter your password:")
+# if name == "admin" and password == "admin123":
+#     print("Welcome admin!")
+# elif name == "admin" and password != "admin123":
+#     password = input("Incorrect password. Please try again:")
+#     if password == "admin123":
+#         print("Welcome admin!")
+#     else:
+#         print("Invalid credentials. Access denied.")    
+# else:
+#     print("Invalid credentials. Access denied.") 
+
+# modules in maths
+
+#while loop:
+number = 10
+i = 1
+while i<11:
+    
+    print(number,"*",i,"=",number*i)
+    i +=1
+
+#for loop:
+print("for loop:")
+n = 10
+for i in range(0,n+1,2): # if (1,n) then it will print from 1 to 9  
+# if only(n) then it will print from 0 to 9
+    print(i)
