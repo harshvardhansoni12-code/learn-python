@@ -1,24 +1,10 @@
-# # strings
-s = 'ssiuc rads'
-# rev = ""
-# for i in s:
-#     rev = i + rev
-# print(rev)
+# text in coding called string
+s = "helloworld"  
 
-# for i in s:
-#     print(i)
-v = 0
-c = 0
-for i in s:
-    if i in 'aeiou':
-        v += 1
-    else:
-        c +=1
-print("vowels", v)
-print("consonants", c)
+print(s[-1])
+print(s[3])
+print(s[0:4])
+print(s[3:])
 
-
-for i in range (0,4):
-    for j in range (0,i+1):
-        print("*" , end="")
-    print()
+print(s[0:6:3])
+# 1:21:30
