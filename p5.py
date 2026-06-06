@@ -36,3 +36,4 @@ print(s.index('l')) # index returns the index of the first occurrence of the sub
 # Replace
 s = 'hello world'
 print(s.replace('l', 'x')) # replace returns a new string with all occurrences of the first argument replaced by the second argument    
+
