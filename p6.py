@@ -34,6 +34,22 @@ L1 = [1,2,3]
 print(L == L1)
 
 print(id(1))
-print(id(1))
+print(id(L1[0]))
 
 # Creating a list
+empty_list = []
+print(empty_list)
+
+oned_list = [1, 2, 3, 4, 5]
+print(oned_list)
+
+twod_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print([1,2,3,[4,5]])
+print(twod_list)
+
+threed_list = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]] #homogeneous list    
+print([1,2,3,[4,5,[6,7]]]) #heterogeneous list
+print(threed_list)
+
+print(list('hello')) # list of characters in the string
+print(list(range(1, 11))) # list of numbers from 1 to 10
