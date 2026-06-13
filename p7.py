@@ -107,5 +107,3 @@ print(L)
 L = [1, 2, 3, 4, 5]
 L.clear() # deleting all elements
 print(L)
-
-# operations on list
